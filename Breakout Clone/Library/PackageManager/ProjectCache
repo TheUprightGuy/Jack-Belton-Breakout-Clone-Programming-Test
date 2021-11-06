@@ -1,31 +1,86 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: C:/Users/jackb/Desktop/Breakout Clone/Packages/manifest.json
+    m_FilePath: C:/Users/jackb/Documents/Jack-Belton-Breakout-Clone-Programming-Test/Breakout
+      Clone/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637717701184920602
-    m_Hash: 2522921201
+      ticks: 637717887813462394
+    m_Hash: 3783374859
   m_LockFileStatus:
-    m_FilePath: C:/Users/jackb/Desktop/Breakout Clone/Packages/packages-lock.json
+    m_FilePath: C:/Users/jackb/Documents/Jack-Belton-Breakout-Clone-Programming-Test/Breakout
+      Clone/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637717701491070469
-    m_Hash: 1266107525
+      ticks: 637717887813548457
+    m_Hash: 574451949
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.collab-proxy@1.13.5
       testable: 0
       isDirectDependency: 1
       version: 1.13.5
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.collab-proxy@1.13.5
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.collab-proxy@1.13.5
       assetPath: Packages/com.unity.collab-proxy
       name: com.unity.collab-proxy
       displayName: Version Control
@@ -66,7 +121,12 @@ m_PackageAssets:
         - 1.7.1
         - 1.8.0
         - 1.9.0
+        - 1.10.2
+        - 1.11.2
+        - 1.12.5
         - 1.13.5
+        - 1.14.1
+        - 1.15.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -79,6 +139,8 @@ m_PackageAssets:
         - 2.1.0-preview.6
         compatible:
         - 1.13.5
+        - 1.14.1
+        - 1.15.1
         - 2.0.0-preview.6
         - 2.0.0-preview.8
         - 2.0.0-preview.15
@@ -128,7 +190,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637685076530000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -141,7 +203,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.7
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.ide.rider@2.0.7
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.ide.rider@2.0.7
       assetPath: Packages/com.unity.ide.rider
       name: com.unity.ide.rider
       displayName: JetBrains Rider Editor
@@ -248,7 +311,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 2.0.11
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.ide.visualstudio@2.0.11
       assetPath: Packages/com.unity.ide.visualstudio
       name: com.unity.ide.visualstudio
       displayName: Visual Studio Editor
@@ -335,7 +399,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.2.4
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.ide.vscode@1.2.4
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.ide.vscode@1.2.4
       assetPath: Packages/com.unity.ide.vscode
       name: com.unity.ide.vscode
       displayName: Visual Studio Code Editor
@@ -393,12 +458,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637660806170000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.ide.vscode.git
+        url: git+https://github.com/Unity-Technologies/com.unity.ide.vscode.git
         revision: 1f4f605d5c988cb610c372b5c5216c46cc8f5d30
         path: 
     - packageId: com.unity.render-pipelines.universal@10.7.0
@@ -406,7 +471,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 10.7.0
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.render-pipelines.universal@10.7.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.render-pipelines.universal@10.7.0
       assetPath: Packages/com.unity.render-pipelines.universal
       name: com.unity.render-pipelines.universal
       displayName: Universal RP
@@ -512,7 +578,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637678189980000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -525,7 +591,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.1.29
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.test-framework@1.1.29
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.test-framework@1.1.29
       assetPath: Packages/com.unity.test-framework
       name: com.unity.test-framework
       displayName: Test Framework
@@ -571,9 +638,11 @@ m_PackageAssets:
         - 1.1.26
         - 1.1.27
         - 1.1.29
+        - 1.1.30
         compatible:
         - 1.1.29
-        verified: 1.1.29
+        - 1.1.30
+        verified: 1.1.30
       dependencies:
       - name: com.unity.ext.nunit
         version: 1.0.6
@@ -603,12 +672,12 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637647922650000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
-        url: https://github.com/Unity-Technologies/com.unity.test-framework.git
+        url: git+https://github.com/Unity-Technologies/com.unity.test-framework.git
         revision: dac53542acdab7a12e9ebf111ac588d0e53cf483
         path: 
     - packageId: com.unity.textmeshpro@3.0.6
@@ -616,7 +685,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 3.0.6
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.textmeshpro@3.0.6
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.textmeshpro@3.0.6
       assetPath: Packages/com.unity.textmeshpro
       name: com.unity.textmeshpro
       displayName: TextMeshPro
@@ -730,9 +800,12 @@ m_PackageAssets:
         - 3.0.5
         - 3.0.6
         - 3.2.0-pre.1
+        - 3.2.0-pre.2
+        - 4.0.0-pre.1
         compatible:
         - 3.0.6
         - 3.2.0-pre.1
+        - 3.2.0-pre.2
         verified: 3.0.6
       dependencies:
       - name: com.unity.ugui
@@ -775,7 +848,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.4.8
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.timeline@1.4.8
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.timeline@1.4.8
       assetPath: Packages/com.unity.timeline
       name: com.unity.timeline
       displayName: Timeline
@@ -850,11 +924,15 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
         compatible:
         - 1.4.8
         - 1.5.0-pre.2
@@ -870,11 +948,15 @@ m_PackageAssets:
         - 1.5.4
         - 1.5.5
         - 1.5.6
+        - 1.5.7
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
         - 1.6.0-pre.5
         - 1.6.1
+        - 1.6.2
+        - 1.6.3
+        - 1.7.0-pre.1
         verified: 1.4.8
       dependencies:
       - name: com.unity.modules.director
@@ -925,7 +1007,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.ugui@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.ugui@1.0.0
       assetPath: Packages/com.unity.ugui
       name: com.unity.ugui
       displayName: Unity UI
@@ -988,7 +1071,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.ai@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.ai@1.0.0
       assetPath: Packages/com.unity.modules.ai
       name: com.unity.modules.ai
       displayName: AI
@@ -1036,7 +1120,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.androidjni@1.0.0
       assetPath: Packages/com.unity.modules.androidjni
       name: com.unity.modules.androidjni
       displayName: Android JNI
@@ -1084,7 +1169,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.animation@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.animation@1.0.0
       assetPath: Packages/com.unity.modules.animation
       name: com.unity.modules.animation
       displayName: Animation
@@ -1132,7 +1218,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
       assetPath: Packages/com.unity.modules.assetbundle
       name: com.unity.modules.assetbundle
       displayName: Asset Bundle
@@ -1180,7 +1267,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.audio@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.audio@1.0.0
       assetPath: Packages/com.unity.modules.audio
       name: com.unity.modules.audio
       displayName: Audio
@@ -1228,7 +1316,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.cloth@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.cloth@1.0.0
       assetPath: Packages/com.unity.modules.cloth
       name: com.unity.modules.cloth
       displayName: Cloth
@@ -1280,7 +1369,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.director@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.director@1.0.0
       assetPath: Packages/com.unity.modules.director
       name: com.unity.modules.director
       displayName: Director
@@ -1336,7 +1426,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
       assetPath: Packages/com.unity.modules.imageconversion
       name: com.unity.modules.imageconversion
       displayName: Image Conversion
@@ -1385,7 +1476,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.imgui@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.imgui@1.0.0
       assetPath: Packages/com.unity.modules.imgui
       name: com.unity.modules.imgui
       displayName: IMGUI
@@ -1433,7 +1525,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
       assetPath: Packages/com.unity.modules.jsonserialize
       name: com.unity.modules.jsonserialize
       displayName: JSONSerialize
@@ -1481,7 +1574,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
       assetPath: Packages/com.unity.modules.particlesystem
       name: com.unity.modules.particlesystem
       displayName: Particle System
@@ -1529,7 +1623,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.physics@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.physics@1.0.0
       assetPath: Packages/com.unity.modules.physics
       name: com.unity.modules.physics
       displayName: Physics
@@ -1577,7 +1672,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.physics2d@1.0.0
       assetPath: Packages/com.unity.modules.physics2d
       name: com.unity.modules.physics2d
       displayName: Physics 2D
@@ -1625,7 +1721,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.screencapture@1.0.0
       assetPath: Packages/com.unity.modules.screencapture
       name: com.unity.modules.screencapture
       displayName: Screen Capture
@@ -1677,7 +1774,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.terrain@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.terrain@1.0.0
       assetPath: Packages/com.unity.modules.terrain
       name: com.unity.modules.terrain
       displayName: Terrain
@@ -1725,7 +1823,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
       assetPath: Packages/com.unity.modules.terrainphysics
       name: com.unity.modules.terrainphysics
       displayName: Terrain Physics
@@ -1781,7 +1880,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.tilemap@1.0.0
       assetPath: Packages/com.unity.modules.tilemap
       name: com.unity.modules.tilemap
       displayName: Tilemap
@@ -1833,7 +1933,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.ui@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.ui@1.0.0
       assetPath: Packages/com.unity.modules.ui
       name: com.unity.modules.ui
       displayName: UI
@@ -1881,7 +1982,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.uielements@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.uielements@1.0.0
       assetPath: Packages/com.unity.modules.uielements
       name: com.unity.modules.uielements
       displayName: UIElements
@@ -1945,7 +2047,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.umbra@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.umbra@1.0.0
       assetPath: Packages/com.unity.modules.umbra
       name: com.unity.modules.umbra
       displayName: Umbra
@@ -1993,7 +2096,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
       assetPath: Packages/com.unity.modules.unityanalytics
       name: com.unity.modules.unityanalytics
       displayName: Unity Analytics
@@ -2049,7 +2153,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequest
       name: com.unity.modules.unitywebrequest
       displayName: Unity Web Request
@@ -2097,7 +2202,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
       name: com.unity.modules.unitywebrequestassetbundle
       displayName: Unity Web Request Asset Bundle
@@ -2153,7 +2259,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestaudio
       name: com.unity.modules.unitywebrequestaudio
       displayName: Unity Web Request Audio
@@ -2209,7 +2316,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequesttexture
       name: com.unity.modules.unitywebrequesttexture
       displayName: Unity Web Request Texture
@@ -2265,7 +2373,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
       assetPath: Packages/com.unity.modules.unitywebrequestwww
       name: com.unity.modules.unitywebrequestwww
       displayName: Unity Web Request WWW
@@ -2337,7 +2446,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.vehicles@1.0.0
       assetPath: Packages/com.unity.modules.vehicles
       name: com.unity.modules.vehicles
       displayName: Vehicles
@@ -2389,7 +2499,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.video@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.video@1.0.0
       assetPath: Packages/com.unity.modules.video
       name: com.unity.modules.video
       displayName: Video
@@ -2449,7 +2560,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.vr@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.vr@1.0.0
       assetPath: Packages/com.unity.modules.vr
       name: com.unity.modules.vr
       displayName: VR
@@ -2511,7 +2623,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.wind@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.wind@1.0.0
       assetPath: Packages/com.unity.modules.wind
       name: com.unity.modules.wind
       displayName: Wind
@@ -2559,7 +2672,8 @@ m_PackageAssets:
       isDirectDependency: 1
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.xr@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.xr@1.0.0
       assetPath: Packages/com.unity.modules.xr
       name: com.unity.modules.xr
       displayName: XR
@@ -2619,7 +2733,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.subsystems@1.0.0
       assetPath: Packages/com.unity.modules.subsystems
       name: com.unity.modules.subsystems
       displayName: Subsystems
@@ -2671,7 +2786,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.0
       source: 2
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
       assetPath: Packages/com.unity.modules.uielementsnative
       name: com.unity.modules.uielementsnative
       displayName: UIElements Native
@@ -2730,7 +2846,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.6
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.ext.nunit@1.0.6
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.ext.nunit@1.0.6
       assetPath: Packages/com.unity.ext.nunit
       name: com.unity.ext.nunit
       displayName: Custom NUnit
@@ -2791,7 +2908,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.1.0
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.mathematics@1.1.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.mathematics@1.1.0
       assetPath: Packages/com.unity.mathematics
       name: com.unity.mathematics
       displayName: Mathematics
@@ -2821,6 +2939,7 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -2836,7 +2955,8 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -2866,7 +2986,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.7.0
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.render-pipelines.core@10.7.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.render-pipelines.core@10.7.0
       assetPath: Packages/com.unity.render-pipelines.core
       name: com.unity.render-pipelines.core
       displayName: Core RP Library
@@ -3014,7 +3135,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637678188680000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3027,7 +3148,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 10.7.0
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.shadergraph@10.7.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.shadergraph@10.7.0
       assetPath: Packages/com.unity.shadergraph
       name: com.unity.shadergraph
       displayName: Shader Graph
@@ -3174,7 +3296,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637678188860000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3187,7 +3309,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 2.0.0
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.nuget.newtonsoft-json@2.0.0
       assetPath: Packages/com.unity.nuget.newtonsoft-json
       name: com.unity.nuget.newtonsoft-json
       displayName: Newtonsoft Json
@@ -3196,7 +3319,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: library
+      type: 
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -3211,10 +3334,30 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
-        verified: 2.0.0
+        - 2.0.1-preview.1
+        - 2.0.2
+        verified: 2.0.2
       dependencies: []
       resolvedDependencies: []
       keywords: []
@@ -3230,7 +3373,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3243,7 +3386,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 1.0.1
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.services.core@1.0.1
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.services.core@1.0.1
       assetPath: Packages/com.unity.services.core
       name: com.unity.services.core
       displayName: Services Core
@@ -3263,8 +3407,18 @@ m_PackageAssets:
       versions:
         all:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
         compatible:
         - 1.0.1
+        - 1.1.0-pre.7
+        - 1.1.0-pre.8
+        - 1.1.0-pre.9
+        - 1.1.0-pre.10
+        - 1.1.0-pre.11
         verified: 1.0.1
       dependencies:
       - name: com.unity.modules.unitywebrequest
@@ -3285,7 +3439,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637604883250000000
       documentationUrl: 
       hasRepository: 1
       repository:
@@ -3298,7 +3452,8 @@ m_PackageAssets:
       isDirectDependency: 0
       version: 4.3.2
       source: 1
-      resolvedPath: C:\Users\jackb\Desktop\Breakout Clone\Library\PackageCache\com.unity.searcher@4.3.2
+      resolvedPath: C:\Users\jackb\Documents\Jack-Belton-Breakout-Clone-Programming-Test\Breakout
+        Clone\Library\PackageCache\com.unity.searcher@4.3.2
       assetPath: Packages/com.unity.searcher
       name: com.unity.searcher
       displayName: Searcher
@@ -3328,6 +3483,7 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
         compatible:
         - 4.0.0-preview
         - 4.0.0
@@ -3343,6 +3499,7 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []
@@ -3371,5 +3528,6 @@ m_PackageAssets:
         path: 
   m_LocalPackages:
     m_LocalFileStatus: []
-m_ProjectPath: C:/Users/jackb/Desktop/Breakout Clone/Packages
+m_ProjectPath: C:/Users/jackb/Documents/Jack-Belton-Breakout-Clone-Programming-Test/Breakout
+  Clone/Packages
 m_EditorVersion: 2020.3.22f1 (e1a7f79fd887)
