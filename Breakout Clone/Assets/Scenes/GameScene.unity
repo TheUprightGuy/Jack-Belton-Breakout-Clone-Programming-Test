@@ -457,7 +457,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0dcf9be55cfd934da38a71ba6412266, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  XLimit: 9
+  XLimit: 8.63
   PaddleSpeed: 0.1
 --- !u!61 &1243069526
 BoxCollider2D:
@@ -754,7 +754,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minStartAngle: -45
   maxStartAngle: 45
-  BallSpeed: 0.1
+  BallSpeed: 10
 --- !u!1 &1900307743
 GameObject:
   m_ObjectHideFlags: 0

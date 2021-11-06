@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class BallMovement : MonoBehaviour
 {
-
+    [Header("Launch Settings")]
     public float minStartAngle = 0;
     public float maxStartAngle = 90;
+    
+    [Header("Move Settings")]
     public float BallSpeed = 1;
 
     Vector2 velocity = Vector2.zero;
@@ -24,7 +26,6 @@ public class BallMovement : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //velocity = RandomStartVector(-45.0f, 45.0f) * BallSpeed;
     }
 
     // Update is called once per frame
@@ -41,6 +42,9 @@ public class BallMovement : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Update the position every frame to move the ball
+    /// </summary>
     void UpdatePosition()
     {
         if (velocity == Vector2.zero)
@@ -50,16 +54,22 @@ public class BallMovement : MonoBehaviour
 
         Vector3 vel3D = new Vector3(velocity.x, velocity.y, 0.0f);
 
-        transform.position += vel3D;
+        transform.position += (vel3D * Time.deltaTime);
     }
 
+    /// <summary>
+    /// Launch the ball based on a speed and min/max angle
+    /// </summary>
     void LaunchBall()
     {
         WaitingForLaunch = false;
-        velocity = RandomStartVector(minStartAngle, maxStartAngle) * BallSpeed;
+        velocity = GetVectorAtAngle(Random.Range(minStartAngle, maxStartAngle)) * BallSpeed;
         transform.parent = null;
     }
 
+    /// <summary>
+    /// Reset the ball from a moving state to its origin with 0 velocity
+    /// </summary>
     void ResetBall()
     {
         transform.parent = parentPaddle;
@@ -68,29 +78,61 @@ public class BallMovement : MonoBehaviour
         WaitingForLaunch = true;
     }
 
-    Vector2 RandomStartVector(float _min, float _max)
+    
+    /// <summary>
+    /// Helper func for getting a vector from an angle
+    /// </summary>
+    /// <param name="_angle">Angle for the vector, 0 Degrees is considered Vector2.up</param>
+    /// <returns>The direction at angle</returns>
+    Vector2 GetVectorAtAngle(float _angle)
     {
-        var randomAngle = Random.Range(_min, _max);
-
-        return new Vector2(Mathf.Sin(randomAngle * Mathf.Deg2Rad), Mathf.Cos(randomAngle * Mathf.Deg2Rad));
+        return new Vector2(Mathf.Sin(_angle * Mathf.Deg2Rad), Mathf.Cos(_angle * Mathf.Deg2Rad));
     }
 
-    void ReboundBall(Vector2 hitNormal)
+    /// <summary>
+    /// Called when the ball hits a collider tagged with Wall
+    /// </summary>
+    /// <param name="hitNormal"></param>
+    void ReboundBallWall(Vector2 hitNormal)
     {
         float hitAngle = Vector2.SignedAngle(-velocity.normalized, hitNormal);
         hitAngle = (hitAngle * 2) * Mathf.Deg2Rad;
         velocity = new Vector2((-velocity.x) * Mathf.Cos(hitAngle) - (-velocity.y) * Mathf.Sin(hitAngle),
                                 (-velocity.x) * Mathf.Sin(hitAngle) + (-velocity.y) * Mathf.Cos(hitAngle));
-
+        velocity.Normalize();
+        velocity *= BallSpeed;
     }
 
+    /// <summary>
+    /// Called when the ball hits the paddle
+    /// </summary>
+    /// <param name="_contactPoint"></param>
+    void ReboundBallPaddle(Collision2D _collision)
+    {
+        float rightMostAngle = 80.0f; //Magic numbers, cause I couldn't think of a better place to set these vars
+        float leftMostAngle = -rightMostAngle;
+
+        Transform paddleTransform = _collision.transform;
+        float leftX = paddleTransform.position.x - (paddleTransform.localScale.x / 2);
+        float rightX = paddleTransform.position.x + (paddleTransform.localScale.x / 2);
+
+        float leftToRightDist = rightX - leftX;
+        float leftToContactPoint = _collision.GetContact(0).point.x - leftX;
+
+        float lerpAngle = Mathf.Lerp(leftMostAngle,rightMostAngle,leftToContactPoint / leftToRightDist);
+
+        velocity = GetVectorAtAngle(lerpAngle).normalized * BallSpeed;
+    }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.tag == "Wall" ||
-            collision.transform.tag == "Paddle")
+        if (collision.transform.tag == "Wall")
         {
-            ReboundBall(collision.GetContact(0).normal);
+            ReboundBallWall(collision.GetContact(0).normal);
+        }
+        else if(collision.transform.tag == "Paddle")
+        {
+            ReboundBallPaddle(collision);
         }
         else if(collision.transform.tag == "ThePit")
         {
