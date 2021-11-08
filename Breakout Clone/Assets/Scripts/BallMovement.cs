@@ -18,6 +18,9 @@ public class BallMovement : MonoBehaviour
     bool WaitingForLaunch = true;
 
     Rigidbody2D thisRB;
+
+    
+    public int PlayerIndex;
     private void Awake()
     {
         localOrigin = transform.localPosition;

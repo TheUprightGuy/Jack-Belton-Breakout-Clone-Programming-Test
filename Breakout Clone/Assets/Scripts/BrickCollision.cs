@@ -35,7 +35,12 @@ public class BrickCollision : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        thisMaster.TotalScore += BrickScore;
+        BallMovement hitBall = collision.gameObject.GetComponent<BallMovement>();
+        if (hitBall != null)
+        {
+            thisMaster.GC.Players[hitBall.PlayerIndex].Score += BrickScore;
+        }
+        
         gameObject.SetActive(false);
     }
 }
