@@ -17,10 +17,12 @@ public class BallMovement : MonoBehaviour
 
     bool WaitingForLaunch = true;
 
+    Rigidbody2D thisRB;
     private void Awake()
     {
         localOrigin = transform.localPosition;
         parentPaddle = transform.parent;
+        thisRB = GetComponent<Rigidbody2D>();
     }
 
     // Start is called before the first frame update
@@ -28,20 +30,22 @@ public class BallMovement : MonoBehaviour
     {
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
         if (WaitingForLaunch &&
-            Input.GetKeyDown(KeyCode.Space))
+               Input.GetKeyDown(KeyCode.Space))
         {
             LaunchBall();
         }
-        else
+    }
+
+    private void FixedUpdate()
+    {
+        if(!WaitingForLaunch)
         {
             UpdatePosition();
         }
     }
-
     /// <summary>
     /// Update the position every frame to move the ball
     /// </summary>
@@ -53,8 +57,8 @@ public class BallMovement : MonoBehaviour
         }
 
         Vector3 vel3D = new Vector3(velocity.x, velocity.y, 0.0f);
-
         transform.position += (vel3D * Time.deltaTime);
+
     }
 
     /// <summary>
